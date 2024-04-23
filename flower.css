@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.first {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 192, 203, 0.3),
+      rgba(255, 192, 203, 0.3)
+    ),
+    url(../images/hero\ 2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+nav {
+  background-color: rgba(127, 255, 212, 0.527);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 20px;
+}
+nav a {
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  align-items: center;
+  margin-right: 10px;
+  display: inline-block;
+}
+nav img {
+  width: 200px;
+}
+.p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.p .a {
+  font-size: 80px;
+  font-weight: 600;
+}
+.p .b {
+  text-align: center;
+}
+nav a:hover {
+  background-color: beige;
+  color: red;
+}
+.flower{
+    width: 33.3335%;
+    float: left;
+}
+.second img{
+    width: 100%;
+    vertical-align: middle;
+ 
+}
+.review{
+   background-image: url(../images/hero\ 2.jpg); 
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 50%;
+   float: left;
+  
+ 
+}
+.rev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.rev i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.rev .k{
+font-size: 30px;
+text-align: center;
+font-weight: 600;
+}
+
+.fb{
+    background-color: rgba(0, 255, 255, 0.479);
+}
+.footer1{
+    background-color: deeppink;
+    text-align: center;
+}
+.footer1 p{
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+}
+.logo img{
+    padding-left: 30px;
+}
+.logo{
+    padding-bottom: 30px;
+}
+.footer2{
+   background-color: red;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   color: white;
+   font-size: 20px;
+}
+.footer2 img{
+width: 150px
+}
+.fifth .bro{
+  vertical-align: middle;
+  width: 100%;
+}
